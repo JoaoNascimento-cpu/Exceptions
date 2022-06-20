@@ -14,7 +14,7 @@ namespace Exceptions
                 // {
                 //     Console.WriteLine(arr[index]);
                 // }
-                Cadastrar("");
+                Cadastrar("Hello");
             }
             catch(IndexOutOfRangeException ex)
             {
@@ -37,7 +37,7 @@ namespace Exceptions
             }
             finally
             {
-                
+                Console.WriteLine("Programa chegou ao fim");
             }
 
         }
